@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding:0;
+/*     box-sizing: border-box; */
+}
+
+body{
+    width: 320px;
+    height: 250px;
+}
+
+#main{
+/*     display: grid; */
+    align-items: center
+    /* grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) */;
+    display: grid;
+    grid-template-rows: 0.6fr 2.5fr 0.1fr 1fr;
+
+}
+
+#frame1{
+    display: grid;
+    background-color: black;
+    color: white;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+#frame2{
+    display: grid;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+    grid-column: 1;
+    grid-row: 2; 
+}
+#frame3{
+    display: grid;
+    background-color: white;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 3; 
+}
+#Frame4{
+    background-color: #DA291C;
+    display: grid;
+/*     background-color: black; */
+    height: 50px;
+    grid-column: 1;
+    grid-row: 4;
+}
+#logoprueba img{
+    position: absolute;
+    width: 170px;
+    top: 190px;
+    left: 130px;
+}
